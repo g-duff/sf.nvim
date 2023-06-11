@@ -9,7 +9,7 @@ vim.api.nvim_create_user_command('SF', function (opts)
 	end
 
 	local result = vim.fn.system(cmd)
-	print(result)
+	vim.notify(result, {vim.log.levels.INFO}, {})
 end, { nargs = "+" })
 return M
 
