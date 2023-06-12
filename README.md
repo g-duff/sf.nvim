@@ -5,3 +5,14 @@ Salesforce developer experience in Neovim
 
 * `sf cli` installed - [installation instructions](https://developer.salesforce.com/docs/atlas.en-us.sfdx_setup.meta/sfdx_setup/sfdx_setup_install_cli.htm)
 
+## Instal
+
+Use [Lazy.nvim](https://github.com/folke/lazy.nvim):
+```lua
+require("lazy").setup({
+    ...
+    'g-duff/sf.nvim'
+    ...
+})
+```
+
