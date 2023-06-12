@@ -1,0 +1,9 @@
+*sf.nvim*              Plugin for SF executable              For Neovim >= 0.9.1
+================================================================================
+COMMANDS                                                            *SFCommands*	 
+
+                                                                *:SF*
+:SF {args}				Run an arbitrary sf command and display any output.
+
+================================================================================
+vim:tw=80:ts=4:ft=help:norl:syntax=help:
