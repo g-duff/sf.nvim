@@ -17,3 +17,7 @@ require("lazy").setup({
 })
 ```
 
+## Disclaimer
+
+* API is not yet stable, hence version numbers less than 1.0.0. Expect changes.
+
