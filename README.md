@@ -12,7 +12,7 @@ Use [Lazy.nvim](https://github.com/folke/lazy.nvim):
 ```lua
 require("lazy").setup({
     ...
-    'g-duff/sf.nvim'
+    { 'g-duff/sf.nvim', version = "0.0.0" }
     ...
 })
 ```
