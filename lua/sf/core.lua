@@ -10,4 +10,14 @@ function module.sf_sync(sf_command_and_args)
 	return vim.fn.system(cmd)
 end
 
+function module.sf_sync_table(sf_command_and_args)
+	local cmd = {'sf'}
+
+	sf_command_and_args[#sf_command_and_args + 1] = '--json'
+
+	raw_output = module.sf_sync(sf_command_and_args)
+
+	return vim.json.decode(raw_output)
+end
+
 return module
