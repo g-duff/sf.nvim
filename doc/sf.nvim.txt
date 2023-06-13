@@ -1,9 +1,16 @@
-*sf.nvim*              Plugin for SF executable              For Neovim >= 0.9.1
+*sf.nvim*              Plugin for SF executable                For Neovim >= 0.9.1
 ================================================================================
 COMMANDS                                                            *SFCommands*	 
 
 *:SF*
 :SF {args}          Run an arbitrary sf command and display any output.
+
+
+*:SFPrintScratchOrgDefaultUsername*
+:PrintScratchOrgDefaultUsername
+                    UNSTABLE - Print the current scratch org default username.
+                    If there is no default scratch org then an empty string is
+                    returned.
 
 ================================================================================
 vim:tw=78:ts=8:sw=4:sts=4:et:ft=help:norl:
