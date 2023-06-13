@@ -1,3 +1,3 @@
-local sf = require('sf.cli_entrypoint')
+local sf = require('sf.user_commands')
 return sf
 
