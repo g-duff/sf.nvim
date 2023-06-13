@@ -2,8 +2,8 @@
 ================================================================================
 COMMANDS                                                            *SFCommands*	 
 
-                                                                *:SF*
-:SF {args}				Run an arbitrary sf command and display any output.
+*:SF*
+:SF {args}          Run an arbitrary sf command and display any output.
 
 ================================================================================
-vim:tw=80:ts=4:ft=help:norl:syntax=help:
+vim:tw=78:ts=8:sw=4:sts=4:et:ft=help:norl:
