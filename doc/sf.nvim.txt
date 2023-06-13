@@ -1,4 +1,4 @@
-*sf.nvim*              Plugin for SF executable              For Neovim >= 0.9.1
+*sf.nvim*              Plugin for SF executable                For Neovim >= 0.9.1
 ================================================================================
 COMMANDS                                                            *SFCommands*	 
 
