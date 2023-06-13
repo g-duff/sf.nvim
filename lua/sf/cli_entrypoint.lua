@@ -1,15 +1,10 @@
 local M = {}
 
+local core = require('sf.core')
+
 vim.api.nvim_create_user_command('SF', function (opts)
-	-- vim.system("sf"..opts.args, { text = true }):wait()
-	local cmd = {'sf'}
-
-	for _, value in pairs(opts.fargs) do
-		table.insert(cmd, value)
-	end
-
-	local result = vim.fn.system(cmd)
+	result = core.sf_sync(opts.fargs)
 	vim.notify(result, {vim.log.levels.INFO}, {})
 end, { nargs = "+" })
-return M
 
+return M
