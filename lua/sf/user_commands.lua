@@ -15,7 +15,7 @@ vim.api.nvim_create_user_command('SFPrintScratchOrgDefaultUsername', function ()
 
 	local scratch_org_username = ''
 	for _, scratch_org in pairs(scratch_orgs) do
-		if scratch_org["isDefaultDevHubUsername"] == true then
+		if scratch_org["isDefaultUsername"] == true then
 			scratch_org_username = scratch_org['username']
 		end
 	end
